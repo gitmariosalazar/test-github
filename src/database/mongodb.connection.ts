@@ -14,3 +14,4 @@ export const connectToMongoDB = async () => {
     throw error
   }
 }
+// Add message
