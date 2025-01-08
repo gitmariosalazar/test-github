@@ -3,7 +3,7 @@ import * as mssql from 'mssql';
 import { envs } from 'src/settings';
 
 const logger = new Logger('SQL Server');
-
+// ? Add new comment by branch-04
 export const connectToSQLServer = async () => {
   const config: mssql.config = {
     user: envs.sqlserver_username,
