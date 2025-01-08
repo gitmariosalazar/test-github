@@ -14,4 +14,3 @@ export const connectToMongoDB = async () => {
     throw error
   }
 }
-// TODO: Comment todo test conflicts
